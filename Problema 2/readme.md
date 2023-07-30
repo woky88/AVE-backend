@@ -20,10 +20,10 @@ Esta es una aplicación sencilla escrita en Node.js que consulta datos de Pokém
 
 1. Asegúrate de tener instalado Node.js en tu sistema. Si no lo tienes instalado, puedes descargarlo desde el [sitio oficial de Node.js](https://nodejs.org/).
 
-2. Abre una terminal y navega hasta el directorio donde se encuentra el archivo `app.js`.
+2. Abre una terminal y navega hasta el directorio donde se encuentra el archivo `pokeapi.js`.
 
 3. Instala las dependencias del proyecto ejecutando `npm install`.
 
-4. Ejecuta la aplicación con el comando `node app.js`.
+4. Ejecuta la aplicación con el comando `node pokeapi.js`.
 
-Ten en cuenta que las funciones se llaman en el orden mencionado anteriormente en la función `main` del archivo `app.js`. Para cambiar los parámetros que se pasan a cada función, deberás modificarlos directamente en la función `main`.
+Ten en cuenta que las funciones se llaman en el orden mencionado anteriormente en la función `main` del archivo `pokeapi.js`. Para cambiar los parámetros que se pasan a cada función, deberás modificarlos directamente en la función `main`.

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Validador de Contraseñas</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <label for="password">Ingresa tu contraseña:</label>
+    <input type="password" id="password" />
+
+    <ul>
+      <li id="length">Debe tener al menos 16 caracteres.</li>
+      <li id="case">Debe tener letras minúsculas y mayúsculas.</li>
+      <li id="no-repeated-letters">
+        No puede tener 2 letras iguales consecutivas.
+      </li>
+      <li id="numbers">Debe contener al menos 4 números.</li>
+      <li id="no-repeated-numbers">
+        No puede tener 2 números iguales consecutivos.
+      </li>
+      <li id="special-chars">
+        Debe tener al menos 2 caracteres especiales (!@#$%ˆ&*-_+=?) pero ninguno
+        de ellos puede repetirse en ninguna posición y además los caracteres no
+        pueden estar juntos.
+      </li>
+      <li id="no-zero">No se puede usar el número 0.</li>
+      <li id="no-spaces">No se puede colocar espacios.</li>
+    </ul>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>

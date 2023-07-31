@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tareas</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <form id="task-form">
+      <input
+        type="text"
+        id="task-name"
+        placeholder="Nombre de la tarea"
+        required
+      />
+      <input type="date" id="task-date" required />
+      <select id="task-priority" required>
+        <option value="">Prioridad</option>
+        <option value="Alta">Alta</option>
+        <option value="Media">Media</option>
+        <option value="Baja">Baja</option>
+      </select>
+      <textarea
+        id="task-description"
+        placeholder="Descripción"
+        required
+      ></textarea>
+      <button type="submit">Agregar</button>
+      <button type="button" id="clear-form">Limpiar</button>
+    </form>
+
+    <table id="task-table">
+      <thead>
+        <tr>
+          <th>Nombre de la tarea</th>
+          <th>Fecha</th>
+          <th>Prioridad</th>
+          <th>Descripción</th>
+          <th>Acciones</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
